@@ -9,7 +9,7 @@ class animal{//this is base class
 };
 
 class cow: public animal{
-    public:
+    public://derived class
     void animalsound(){
         cout<<"humbaaa humbaaaa"<<endl;
 
@@ -18,7 +18,7 @@ class cow: public animal{
 
 class cat: public animal{
     public:
-    void animalsound(){
+    void animalsound(){//derived class
         cout<<"the animal sound is mew mew meeuw"<<endl;
     }
 };
@@ -30,6 +30,6 @@ int main(){
 
     myanimal.animalsound();
     mycat.animalsound();
-    mycow.animalsound();
+    mycow.animalsound()
 
 }
