@@ -1,22 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Applince{
+class thin{
     public:
-    virtual void trunon()=0;
-// pure virtual function cause value 0
-};
-
-class fan : public Applince{
-    public:
-    void trunon() override{
-        cout<<"fan on koro"<<endl;
-
-    }
+    int rifat;
+    string rafi;
 };
 
 int main(){
-    Applince* myapp = new fan();
-    myapp->trunon();
-    delete myapp;
+    thin ere;
+
+    ere.rifat=12;
+    ere.rafi="sala";
+
+    cout<<ere.rifat<<endl;
+    cout<<ere.rafi;
+
 }

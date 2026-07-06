@@ -1,21 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Employee{
-    private://private variable
-    int salary;
-
+class thin{
     public:
-    void setsalary(int s){
-        salary=s;//setter
-    }
-    int getsalary(){
-        return salary;//getter
-    }
+    int rifat;
+    string rafi;
 };
 
 int main(){
-    Employee myjob;
-    myjob.setsalary(40000);
-    cout<<myjob.getsalary();
+    thin ere;
+
+    ere.rifat=12;
+    ere.rafi="sala";
+
+    cout<<ere.rifat<<endl;
+    cout<<ere.rafi;
+
 }
