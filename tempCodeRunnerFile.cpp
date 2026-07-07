@@ -1,19 +1,27 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class thin{
+class car{
+
     public:
-    int rifat;
-    string rafi;
+    string fruits;
+    string vegetable;
+    int price ;
 };
 
 int main(){
-    thin ere;
+    car mycar;
 
-    ere.rifat=12;
-    ere.rafi="sala";
+    car goru;
 
-    cout<<ere.rifat<<endl;
-    cout<<ere.rafi;
+    mycar.fruits="kola";
+    mycar.vegetable="begun";
+    mycar.price=10;
 
+
+    goru.fruits="gash";
+    goru.price=23;
+    cout<<goru.fruits<<"  "<<goru.price<<endl;
+
+    cout<<mycar.fruits<< "  "<<mycar.vegetable<<"   "<<mycar.price;
 }
